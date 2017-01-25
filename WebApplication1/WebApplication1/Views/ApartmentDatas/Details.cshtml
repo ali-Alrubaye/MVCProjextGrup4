@@ -1,0 +1,162 @@
+﻿@model WebApplication1.Models.ApartmentData
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ApartmentData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FormHId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FormHId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SizrId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SizrId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FeatureId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FeatureId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AreaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AreaId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApartImgId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApartImgId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ytakvm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ytakvm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantityRooms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantityRooms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Floor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Floor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Region)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Available)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Available)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RequiredDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RequiredDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisplayDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisplayDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
